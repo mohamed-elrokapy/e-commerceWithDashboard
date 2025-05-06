@@ -1,0 +1,153 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullname": "mohamed elsayed",
+      "email": "mohamedrad2022@gmail.com",
+      "phone": "01203363707",
+      "birthDate": "2006-01-01",
+      "password": "Mohamed121@",
+      "role": "admin"
+    },
+    {
+      "id": "36884038-fc89-4f21-9fb0-b5441129634e",
+      "fullname": "aliahmed",
+      "email": "aliahmed@gmai.com",
+      "phone": "01203363698",
+      "birthDate": "2025-01-01",
+      "password": "111111",
+      "role": "user"
+    },
+    {
+      "id": "3d5f",
+      "fullname": "ahmed ahmed",
+      "email": "hawash@gmail.com",
+      "password": "Ahmed121@",
+      "phone": "01203363939",
+      "birthDate": "2003-01-01",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "price": 12.99,
+      "title": "بيتزا مارغريتا",
+      "productDescription": "بيتزا بالطماطم والجبنة",
+      "img": "https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg",
+      "count": 1
+    },
+    {
+      "count": 1,
+      "id": "4",
+      "price": 10.5,
+      "title": "برجر دجاج",
+      "productDescription": "ساندويتش دجاج مع الخس والمايونيز",
+      "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg"
+    },
+    {
+      "count": 1,
+      "id": "5",
+      "price": 11.99,
+      "title": "برجر لحم",
+      "productDescription": "ساندويتش لحم مشوي مع الجبن",
+      "img": "https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg"
+    },
+    {
+      "count": 1,
+      "id": "6",
+      "price": 8.99,
+      "title": "شاورما فراخ",
+      "productDescription": "شاورما فراخ مع ثومية وخبز",
+      "img": "img/pexels-minan1398-1482803 (1).jpg"
+    },
+    {
+      "count": 1,
+      "id": "7",
+      "price": 9.99,
+      "title": "شاورما لحم",
+      "productDescription": "شاورما لحم متبلة مع طحينة",
+      "img": "img/pexels-kylarose-954677.jpg"
+    },
+    {
+      "id": "8",
+      "count": 1,
+      "price": 6.5,
+      "title": "فلافل",
+      "productDescription": "أقراص فلافل مقلية تقدم مع خبز وطحينة",
+      "img": "img/pexels-janetrangdoan-1128678.jpg"
+    },
+    {
+      "id": "9",
+      "count": 1,
+      "price": 7.5,
+      "title": "كشري",
+      "productDescription": "كشري مصري مكون من عدس وأرز ومكرونة وبصل",
+      "img": "img/pexels-janetrangdoan-1099680.jpg"
+    },
+    {
+      "id": "10",
+      "price": 12.1,
+      "count": 1,
+      "title": "فطير مشلتت",
+      "productDescription": "فطير مشلتت بالجبن والعسل أو السادة",
+      "img": "img/pexels-goumbik-349609.jpg"
+    },
+    {
+      "id": "11",
+      "price": 11.1,
+      "count": 1,
+      "title": "كريب فراخ",
+      "productDescription": "كريب محشو بصدور الدجاج والجبنة",
+      "img": "img/pexels-fotios-photos-1279330.jpg"
+    },
+    {
+      "id": "12",
+      "price": 11.5,
+      "count": 1,
+      "title": "كريب نوتيلا",
+      "productDescription": "كريب نوتيلا مع الفواكه أو مكسرات",
+      "img": "img/pexels-elletakesphotos-1660030.jpg"
+    },
+    {
+      "id": "13",
+      "price": 10.1,
+      "count": 1,
+      "title": "وافل",
+      "productDescription": "وافل مقرمش مع صوص الشوكولاتة أو الكراميل",
+      "img": "img/pexels-ella-olsson-572949-1640777.jpg"
+    },
+    {
+      "id": "14",
+      "price": 9.5,
+      "count": 1,
+      "title": "آيس كريم",
+      "productDescription": "آيس كريم بنكهات متعددة",
+      "img": "img/pexels-ella-olsson-572949-1640777.jpg"
+    },
+    {
+      "id": "15",
+      "price": 13.1,
+      "count": 1,
+      "title": "كيك شوكولاتة",
+      "productDescription": "كيكة شوكولاتة لذيذة وهشة",
+      "img": "img/pexels-ella-olsson-572949-1640772.jpg"
+    },
+    {
+      "id": "16",
+      "price": 12.5,
+      "count": 1,
+      "title": "كيك فانيليا",
+      "productDescription": "كيك خفيف بنكهة الفانيليا",
+      "img": "img/pexels-elevate-1267320.jpg"
+    },
+    {
+      "id": "17",
+      "count": 1,
+      "price": 14.1,
+      "title": "مولتن كيك",
+      "productDescription": "مولتن كيك ساخن محشو بالشوكولاتة السائلة",
+      "img": "img/pexels-chanwalrus-958545.jpg"
+    }
+  ]
+}
