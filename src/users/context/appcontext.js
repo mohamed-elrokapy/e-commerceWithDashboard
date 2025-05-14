@@ -1,7 +1,7 @@
 import { createContext } from "react";
 const islogedincontext = createContext({
-  isLoggedIn: "",
-  setIsLoggedIn: () => {},
+  isloggedin: "",
+  setisloggedin: () => {},
   logeduserinfo: {},
   setlogeduserinfo: () => {},
   products: [],
