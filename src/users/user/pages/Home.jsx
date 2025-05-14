@@ -5,7 +5,7 @@ import Homeproducts from "../copmpnents/home/Homeproducts";
 
 const Home = () => {
   return (
-    <div className="bg-red-300 min-h-screen transition-all duration-500 ease-in-out">
+    <div className=" min-h-screen transition-all duration-500 ease-in-out">
       <GalleryWithCarousel />
       <Homeproducts />
     </div>
