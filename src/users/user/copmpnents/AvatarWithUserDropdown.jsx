@@ -13,7 +13,7 @@ import appcontext from "../../context/appcontext";
 import { useNavigate } from "react-router-dom";
 
 export default function AvatarWithUserDropdown() {
-  const { setisloggedIn, logeduserinfo } = useContext(appcontext);
+  const { setisloggedin, logeduserinfo } = useContext(appcontext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
 
@@ -26,7 +26,7 @@ export default function AvatarWithUserDropdown() {
         break;
       case "Sign Out":
         localStorage.removeItem("postuserid");
-        setisloggedIn(false);
+        setisloggedin(false);
         navigate("/login");
         break;
       case "dashbord":
