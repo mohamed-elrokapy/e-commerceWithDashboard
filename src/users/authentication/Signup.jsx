@@ -139,7 +139,7 @@ const SignUp = () => {
     <div className="flex items-center justify-center bg-gray-800 py-12">
       <form
         onSubmit={handlingformsubmit}
-        className="z-20 w-full mt-10 max-w-md bg-white shadow-md rounded-lg px-8 py-4">
+        className="z-20 w-full mt-7 max-w-md bg-white shadow-md rounded-lg px-8 py-4">
         <Typography
           variant="h4"
           className="text-center mb-4 bg-yellow-400 shadow-lg text-black p-3 rounded-lg">
