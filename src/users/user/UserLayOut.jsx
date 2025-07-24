@@ -10,15 +10,14 @@ import Products from "./pages/Products";
 import Shopingcart from "./pages/Shopingcart";
 import Checkout from "./copmpnents/shopingcart/Checkout";
 import ContactUs from "./pages/ContactUs";
- import Notfound from "../authentication/Notfound";
-
+import Notfound from "../authentication/Notfound";
+// import PrivateRoute from "../../PrivateRoute";
 const UserLayOut = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
       <main className="transition-all duration-500 ease-in-out">
         <Routes>
-          
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/shopingcartpage" element={<Shopingcart />} />
