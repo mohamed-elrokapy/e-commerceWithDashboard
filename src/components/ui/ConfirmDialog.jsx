@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useId, useRef } from "react";
 import Button from "./Button";
 
 /** Accessible confirm dialog built on the native <dialog> element. */
@@ -13,6 +13,7 @@ export default function ConfirmDialog({
   onCancel,
 }) {
   const ref = useRef(null);
+  const titleId = useId();
 
   useEffect(() => {
     const dialog = ref.current;
@@ -31,11 +32,11 @@ export default function ConfirmDialog({
       onClick={(e) => {
         if (e.target === ref.current && !busy) onCancel();
       }}
-      aria-labelledby="confirm-title"
+      aria-labelledby={titleId}
       className="w-[min(92vw,26rem)] rounded-lg border border-line bg-white p-0 text-ink shadow-pop backdrop:bg-ink/50"
     >
       <div className="p-6">
-        <h2 id="confirm-title" className="text-xl font-semibold">
+        <h2 id={titleId} className="text-xl font-semibold">
           {title}
         </h2>
         <p className="mt-2 text-sm text-ink-soft">{message}</p>

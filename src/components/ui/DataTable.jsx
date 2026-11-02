@@ -27,7 +27,7 @@ export default function DataTable({ columns, rows, sortKey, sortDir, onSort, row
                   key={col.key}
                   scope="col"
                   aria-sort={ariaSort}
-                  className={`px-4 py-3 font-semibold ${col.hideBelow ? hide[col.hideBelow] : ""} ${col.className ?? ""}`}
+                  className={`px-3 py-3 font-semibold sm:px-4 ${col.hideBelow ? hide[col.hideBelow] : ""} ${col.className ?? ""}`}
                 >
                   {col.sortable ? (
                     <button
@@ -62,7 +62,7 @@ export default function DataTable({ columns, rows, sortKey, sortDir, onSort, row
               {columns.map((col) => (
                 <td
                   key={col.key}
-                  className={`px-4 py-3 align-middle ${col.hideBelow ? hide[col.hideBelow] : ""} ${col.className ?? ""}`}
+                  className={`px-3 py-3 align-middle sm:px-4 ${col.hideBelow ? hide[col.hideBelow] : ""} ${col.className ?? ""}`}
                 >
                   {col.render ? col.render(row) : row[col.key]}
                 </td>

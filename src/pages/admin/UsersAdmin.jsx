@@ -59,7 +59,7 @@ export default function UsersAdmin() {
       sortable: true,
       render: (u) => (
         <div className="flex items-center gap-3">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-paper-3 text-xs font-semibold text-ink-soft" aria-hidden="true">
+          <span className="hidden h-9 w-9 shrink-0 items-center sm:flex justify-center rounded-full bg-paper-3 text-xs font-semibold text-ink-soft" aria-hidden="true">
             {initials(u.fullName || u.email)}
           </span>
           <div className="min-w-0">
@@ -75,7 +75,7 @@ export default function UsersAdmin() {
     { key: "email", label: "Email", sortable: true, hideBelow: "sm", render: (u) => <span className="text-ink-soft">{u.email}</span> },
     { key: "phone", label: "Phone", hideBelow: "lg", render: (u) => <span className="text-ink-soft">{u.phone || "n/a"}</span> },
     { key: "role", label: "Role", sortable: true, hideBelow: "sm", render: (u) => <Badge tone={u.role === "admin" ? "accent" : "neutral"}>{u.role}</Badge> },
-    { key: "createdAt", label: "Joined", sortable: true, hideBelow: "lg", render: (u) => formatDate(u.createdAt) || "n/a" },
+    { key: "createdAt", label: "Joined", sortable: true, hideBelow: "lg", className: "whitespace-nowrap", render: (u) => formatDate(u.createdAt) || "n/a" },
     {
       key: "actions",
       label: "Actions",

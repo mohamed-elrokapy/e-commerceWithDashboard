@@ -27,11 +27,13 @@ export const DEMO_ACCOUNTS = [
   },
 ];
 
+const SEEDED_AT = Date.now();
+
 export const DEMO_PRODUCTS = products.map((p, index) => ({
   id: `p${index + 1}`,
   title: p.title,
   productDescription: p.productDescription,
   price: p.price,
   img: p.img,
-  createdAt: new Date(Date.UTC(2025, 0, 1 + index)).toISOString(),
+  createdAt: new Date(SEEDED_AT + index).toISOString(),
 }));

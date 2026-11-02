@@ -53,7 +53,7 @@ export default function ProductsAdmin() {
     },
     { key: "description", label: "Description", hideBelow: "md", render: (p) => <p dir="auto" className="line-clamp-2 max-w-sm text-ink-soft">{p.description}</p> },
     { key: "price", label: "Price", sortable: true, hideBelow: "sm", className: "tabular-nums", render: (p) => formatPrice(p.price) },
-    { key: "createdAt", label: "Added", sortable: true, hideBelow: "lg", render: (p) => formatDate(p.createdAt) || "n/a" },
+    { key: "createdAt", label: "Added", sortable: true, hideBelow: "lg", className: "whitespace-nowrap", render: (p) => formatDate(p.createdAt) || "n/a" },
     {
       key: "actions",
       label: "Actions",
