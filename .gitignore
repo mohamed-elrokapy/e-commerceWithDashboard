@@ -11,10 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+temp_auto_push.bat
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -27,3 +26,5 @@ dist-ssr
 .env
 .env.*
 !.env.example
+.gitignore
+branch_structure.json

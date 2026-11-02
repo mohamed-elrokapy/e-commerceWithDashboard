@@ -108,6 +108,6 @@ run against a real Firebase project** because no credentials were available.
   secure. Do not enter real personal data.
 - Product titles and descriptions in the seed data are in Arabic. Text direction is set per
   element, but the interface copy itself is English only.
-- Hosting on a static host needs a rewrite of all paths to `index.html` for deep links.
+- `vercel.json` rewrites all paths to `index.html` so deep links work on Vercel. Other static hosts need the same rule. This was not tested on Vercel.
 
 Notes: UI and code quality improvements were made with AI assistance (Claude, Anthropic), reviewed and verified by building and running the app.
